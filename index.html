@@ -39,7 +39,7 @@
 
     <div class="gridster">
         <ul>
-            <li data-row="1" data-col="1" data-sizey="1" data-sizex="1">
+            <li data-row="1" data-col="1" data-sizey="5" data-sizex="1">
                 <div class="sheet">
                     <div class="row">
                         <div class="cell"></div>
@@ -94,6 +94,67 @@
                             </div>
                         </div>
                         
+                    </div>
+                </div>
+            </li>
+            <li data-row="2" data-col="2" data-sizey="1" data-sizex="5">
+                <header>Wetter</header>
+                <div class="sheet">
+                    <div class="row">
+                        <div data-type="label" class="darker large top-space">Heute</div>        
+        <div    data-type="weather"
+                data-device="Wetter"
+                data-get="fc1_condition"
+                class="big">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc1_condition">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc1_high_c"
+                data-unit="%B0C%0A"
+                class="large">
+        </div>
+        
+        <div    data-type="label"
+                class="darker large top-space">Morgen
+        </div>
+                <div    data-type="weather"
+                data-device="Wetter"
+                data-get="fc2_condition"
+                class="big">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc2_condition">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc2_high_c"
+                data-unit="%B0C%0A"
+                class="large">
+        </div>
+
+        <div    data-type="label"
+                class="darker large top-space">Übermorgen
+        </div>
+                <div    data-type="weather"
+                data-device="Wetter"
+                data-get="fc3_condition"
+                class="big">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc3_condition">
+        </div>
+        <div    data-type="label"
+                data-device="Wetter"
+                data-get="fc3_high_c"
+                data-unit="%B0C%0A"
+                class="large">
+        </div>
                     </div>
                 </div>
             </li>
