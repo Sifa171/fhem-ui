@@ -1,9 +1,9 @@
 {
   "name": "FHEM Tablet UI",
-  "short_name": "fhem",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "fullscreen",
+  "short_name": "FHEM UI",
+  "theme_color": "#4792cd",
+  "background_color": "#4e4e4e",
+  "display": "standalone",
   "orientation": "landscape",
   "Scope": "/",
   "start_url": "http://192.168.0.94:9083/fhem/ftui/",
